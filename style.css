@@ -1,0 +1,38 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: pink;
+  font-family: "Amatic SC";
+  color: black;
+  font-size: 30px;
+}
+
+input[type="text"]{
+  font-size: 30px;
+  width: 230px;
+  border: 2px solid black;
+  border-radius: 100px;
+}
+
+input[type="checkbox"]{
+  transform:scale(2);
+  margin-right: 30px;
+}
+
+.esconde{
+  display: none;
+}
+
+.botao{
+  background-color: rgb(240,14,54);
+  border: 2px solid rgb(151,5,31);
+  border-radius: 200px;
+  color: white;
+  font-size: 20px;
+  font-family: "Amatic SC";
+}
+
+.botao:hover{
+  background-color: rgb(226,137,226);
+  border: 2px solid rgb(209,87,209);
+}
